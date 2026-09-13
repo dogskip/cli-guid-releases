@@ -1,15 +1,15 @@
 {
-  "version": "v1.4.0",
-  "notes": "See release notes at https://github.com/dogskip/cli-guid/releases/tag/v1.4.0",
-  "pub_date": "2026-06-20T14:15:13Z",
+  "version": "v1.5.0",
+  "notes": "See release notes at https://github.com/dogskip/cli-guid/releases/tag/v1.5.0",
+  "pub_date": "2026-09-13T08:23:15Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURE9qS1Fqb2dnVENFakxFaURVaWdTcFNSOXduWjNLakN5bURpR2M2eEE2Z1kwTlNmUkQ4S05FWndJVHpxM3RMZjRlYlY5NlRMcjQ0QnQrdGthNXFqL2lEUGtoU2xBb0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxOTY0OTEzCWZpbGU6QUkuQ0xJLkd1aWRlXzEuNC4wX3g2NF9lbi1VUy5tc2kKVGdyeXEwdUxEcXBhaVRMeUFWUmtzbTlkZk0yUnFsdDFJSmRha0tLZjRRanB6eldtYzdXeGhDT2tTU2R2Um5CT1pBYTd3ekRrNStUTkxUTXQ5U2V5Qnc9PQo=",
-      "url": "https://dogskip.github.io/cli-guid-releases/AI.CLI.Guide_1.4.0_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURE9qS1Fqb2dnVEY3MUJ2VVp6Y3N1dHNwRlMyUUFaV3htVGk1eFZORTI4NFd0RkIvSy8xdC9KSGpRS3BsK3pZTG9rZmNSMTNNaHduZEQyUytoM3pjandqczVxcTlYa2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Mjg3Nzk1CWZpbGU6QUkuQ0xJLkd1aWRlXzEuNS4wX3g2NF9lbi1VUy5tc2kKRitrQldmdm9DeGw1YUtTRTRYcmQrYUI2dk5LRTY1bGl1Y0t6VmJVUW5CQkRjVlZRNTR1VzB0TnNKcytuVUJKejVHaU1TS0U3Y3E5TExNWjZkdWFyREE9PQo=",
+      "url": "https://dogskip.github.io/cli-guid-releases/AI.CLI.Guide_1.5.0_x64_en-US.msi"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURE9qS1Fqb2dnVEtyMGtqYms4UVRqaTFnZzRLTWNuUmZCZVQ5ZHJTeERYd2ZQYW5BL2wxRXI3QjlnRDRodEVxNU9kR2pUQkswcU9ldFdWbTdLOEtZVDJiMEc1a01PS1F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxOTY0OTEzCWZpbGU6QUkuQ0xJLkd1aWRlXzEuNC4wX2FhcmNoNjQuZG1nCk05OW9JK2ZneDdzdXVRY1pzS0JQOVJ5WGNiQkRIZ1V1SGxGRkV6ZWNOM3ZZYitLc0Urc2xQYVNEOFpXckVxUmR6ZVhkSlRnUmRwdk14OXFmODUzMUR3PT0K",
-      "url": "https://dogskip.github.io/cli-guid-releases/AI.CLI.Guide_1.4.0_aarch64.dmg"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURE9qS1Fqb2dnVE9hTTRLSklZd0ZGTHkwdFd6aTUxdFdFODNwQ29iRmF2T3lTQTV2V0J4a3B1Q1F6WmNXc1duM2VOWHc2UGJubzNFeVJpNzhSeVBiNVJUdEg4TW5NaUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Mjg3Nzk1CWZpbGU6QUkuQ0xJLkd1aWRlXzEuNS4wX2FhcmNoNjQuZG1nCndVVDZRa3ViMDVjRXNOdGduNUJ2WTY3UmY5WFY1Vjg0VzV2cEVWeTNtMGFiZnhKdTY0ZUJxWG9saGEyN0tuN2pKNmtsdGZyejk2VmlmUmlKNlFTMUNRPT0K",
+      "url": "https://dogskip.github.io/cli-guid-releases/AI.CLI.Guide_1.5.0_aarch64.dmg"
     }
   }
 }
