@@ -1,10 +1,76 @@
+<!--
+  공개 다운로드 페이지 원본. release.yml deploy-public 이 토큰을 바꾼 뒤 gh-pages 에 올린다.
+  토큰: VERSION, DMG_FILE, MSI_FILE, DMG_BYTES, MSI_BYTES, PUB_DATE.
+  버전마다 "달라진 것" 목록을 이 파일에서 고친다.
+-->
 <!DOCTYPE html>
-<meta charset="utf-8">
-<title>AI CLI Guide Releases</title>
-<h1>AI CLI Guide Release Artifacts</h1>
-<ul>
-  <li><a href="latest.json">latest.json</a></li>
-  <li><a href="SHA256SUMS">SHA256SUMS</a></li>
-  <li><a href="AI.CLI.Guide_1.5.0_aarch64.dmg">macOS DMG</a></li>
-  <li><a href="AI.CLI.Guide_1.5.0_x64_en-US.msi">Windows MSI</a></li>
-</ul>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI CLI 가이드 1.5.1</title>
+  <style>
+    body { font-family: Tahoma, Arial, sans-serif; }
+    h1, h2, h3, b { color: white; background-color: #525D76; }
+    h1 { font-size: 22px; }
+    h2 { font-size: 16px; }
+    h3 { font-size: 14px; }
+    p, li { font-size: 12px; }
+    a { color: black; }
+    .line { height: 1px; background-color: #525D76; border: none; }
+    h1, h2, h3 { padding: 2px 4px; }
+  </style>
+</head>
+<body>
+  <h1>AI CLI 가이드</h1>
+  <hr class="line">
+  <p>Codex, Antigravity CLI, Claude Code를 한국어로 학습하는 데스크톱 앱임. 설치 파일은 이 페이지에 있음.</p>
+  <p><b>버전</b> 1.5.1</p>
+  <p><b>게시</b> 2026년 9월 22일</p>
+  <p id="os-note">설치 파일은 Apple Silicon Mac과 64비트 Windows용임. Intel Mac과 Linux용 파일은 없음.</p>
+
+  <h2>설치 파일</h2>
+  <ul>
+    <li>macOS Apple Silicon: <a href="AI.CLI.Guide_1.5.1_aarch64.dmg">AI.CLI.Guide_1.5.1_aarch64.dmg</a> (5,943,281바이트)</li>
+    <li>Windows 64비트: <a href="AI.CLI.Guide_1.5.1_x64_en-US.msi">AI.CLI.Guide_1.5.1_x64_en-US.msi</a> (6,217,728바이트)</li>
+    <li>업데이트 정보: <a href="latest.json">latest.json</a></li>
+    <li>SHA256: <a href="SHA256SUMS">SHA256SUMS</a></li>
+  </ul>
+  <p>설치한 뒤 앱은 latest.json을 조회해서 다음 버전을 알림.</p>
+
+  <h2>1.5.1에서 달라진 것</h2>
+  <ul>
+    <li>공개 다운로드 페이지를 설치 파일 안내로 바꿈.</li>
+    <li>해시 확인 절차는 이 페이지에서 제외함. SHA256SUMS 링크는 설치 파일 목록에 있음.</li>
+    <li>학습 내용과 앱 동작은 1.5.0과 같음.</li>
+  </ul>
+
+  <hr class="line">
+  <h3>AI CLI 가이드/1.5.1</h3>
+  <script>
+    (function () {
+      var note = document.getElementById("os-note");
+      var ua = navigator.userAgent || "";
+      var isAndroid = /Android/i.test(ua);
+      var isIOS = /iPhone|iPad|iPod/i.test(ua);
+      var isWin = /Windows/i.test(ua);
+      var isMac = /Macintosh|Mac OS X/i.test(ua) && !isAndroid && !isIOS && !isWin;
+      if (isAndroid || isIOS) {
+        note.textContent = "이 브라우저는 휴대전화 또는 태블릿으로 보임. 설치 파일은 Mac과 Windows 컴퓨터용임.";
+        return;
+      }
+      if (isMac && (navigator.maxTouchPoints || 0) > 1) {
+        note.textContent = "이 브라우저는 iPad로 보임. 설치 파일은 Mac과 Windows 컴퓨터용임.";
+        return;
+      }
+      if (isMac) {
+        note.textContent = "이 브라우저는 macOS임. Apple Silicon이면 DMG를 받음. Intel Mac용 파일은 없음.";
+        return;
+      }
+      if (isWin) {
+        note.textContent = "이 브라우저는 Windows임. 64비트이면 MSI를 받음.";
+      }
+    })();
+  </script>
+</body>
+</html>
