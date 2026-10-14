@@ -1,0 +1,41 @@
+import{n as e}from"./vendor-react-BH_RQ4nt.js";var t=e();function n(e){let n={blockquote:`blockquote`,code:`code`,h1:`h1`,h2:`h2`,h3:`h3`,li:`li`,p:`p`,pre:`pre`,strong:`strong`,table:`table`,tbody:`tbody`,td:`td`,th:`th`,thead:`thead`,tr:`tr`,ul:`ul`,...e.components},{Callout:r,LearningObjective:a,Step:o,StepList:s,SummaryBox:c}=n;return r||i(`Callout`,!0),a||i(`LearningObjective`,!0),o||i(`Step`,!0),s||i(`StepList`,!0),c||i(`SummaryBox`,!0),(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h1,{children:`AI CLI 확장 기능 이해`}),`
+`,(0,t.jsxs)(n.p,{children:[(0,t.jsx)(n.strong,{children:`Skills`}),`는 작업 절차(workflow)를, **MCP(Model Context Protocol)**는 도구(capability)를 확장합니다. Codex, Antigravity, Claude는 모두 확장 개념을 제공하지만, 명령 이름, 설정 위치, 지원 범위는 도구별로 다릅니다.`]}),`
+`,(0,t.jsx)(a,{items:[`Skills와 MCP의 차이를 이해한다`,`반복 가능한 작업 흐름(Workflow)을 익힌다`,`자주 사용하는 MCP 서버의 용도를 안다`]}),`
+`,(0,t.jsx)(n.h2,{id:`skills-vs-mcp-vs-프로젝트-설명`,"data-toc-id":`skills-vs-mcp-vs-프로젝트-설명`,"data-toc-slug":`skills-vs-mcp-vs-프로젝트-설명`,"data-toc-depth":`0`,children:`Skills vs MCP vs 프로젝트 설명`}),`
+`,(0,t.jsx)(n.pre,{children:(0,t.jsx)(n.code,{className:`language-mermaid`,children:`flowchart TD
+  AI[AI CLI] --> Config[프로젝트 설명<br/>AGENTS.md / 도구별 지침]
+  AI --> Skills[Skills<br/>작업 절차·학습 루틴]
+  AI --> MCP[MCP<br/>외부 도구·시스템 연결]
+  Skills --> Workflow[Check → Plan → Act → Verify]
+  MCP --> FS[Filesystem<br/>파일 읽기/쓰기]
+  MCP --> Fetch[Fetch<br/>웹/API 요청]
+  MCP --> DB[Memory<br/>장기 기억]
+`})}),`
+`,(0,t.jsxs)(n.table,{children:[(0,t.jsx)(n.thead,{children:(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.th,{children:`항목`}),(0,t.jsx)(n.th,{children:`무엇을 담나`})]})}),(0,t.jsxs)(n.tbody,{children:[(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`Skills`}),(0,t.jsx)(n.td,{children:`작업 절차, 순서, 검증 방식`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`MCP`}),(0,t.jsx)(n.td,{children:`외부 capability, 시스템 연결`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`프로젝트 설명`}),(0,t.jsx)(n.td,{children:`코드 스타일, 선호 출력, 자주 사용하는 명령`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`Plugin/Hook`}),(0,t.jsx)(n.td,{children:`도구별 확장 묶음 또는 실행 전후 강제 규칙`})]})]})]}),`
+`,(0,t.jsxs)(n.p,{children:[`한 줄로: `,(0,t.jsx)(n.strong,{children:`Skills`}),`는 어떻게 반복할지, `,(0,t.jsx)(n.strong,{children:`MCP`}),`는 무엇을 연결할지, `,(0,t.jsx)(n.strong,{children:`프로젝트 설명`}),`은 어떤 맥락을 기본값으로 둘지입니다.`]}),`
+`,(0,t.jsx)(n.h2,{id:`반복-가능한-작업-흐름-4단계`,"data-toc-id":`반복-가능한-작업-흐름-4단계`,"data-toc-slug":`반복-가능한-작업-흐름-4단계`,"data-toc-depth":`0`,children:`반복 가능한 작업 흐름 (4단계)`}),`
+`,(0,t.jsxs)(n.table,{children:[(0,t.jsx)(n.thead,{children:(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.th,{children:`단계`}),(0,t.jsx)(n.th,{children:`핵심 질문`})]})}),(0,t.jsxs)(n.tbody,{children:[(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`Check`}),(0,t.jsx)(n.td,{children:`현재 맥락과 입력 자료는 무엇인가`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`Plan`}),(0,t.jsx)(n.td,{children:`어떤 순서로 결과를 만들 것인가`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`Act`}),(0,t.jsx)(n.td,{children:`최소 단위로 실행했는가`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`Verify`}),(0,t.jsx)(n.td,{children:`출력과 실행 결과가 기대와 일치하는가`})]})]})]}),`
+`,(0,t.jsx)(r,{variant:`tip`,title:`실전 반복성`,children:(0,t.jsx)(n.p,{children:`좋은 Skill은 "이번에만 잘한 요령"을 다음 작업에서도 재사용할 수 있는 절차로 바꿉니다.`})}),`
+`,(0,t.jsx)(n.h2,{id:`mcp-model-context-protocol`,"data-toc-id":`mcp-model-context-protocol`,"data-toc-slug":`mcp-model-context-protocol`,"data-toc-depth":`0`,children:`MCP(Model Context Protocol)`}),`
+`,(0,t.jsxs)(n.p,{children:[`MCP는 AI에게 새로운 능력을 추가하는 `,(0,t.jsx)(n.strong,{children:`개방형 표준 인터페이스`}),`입니다. Claude, Cursor, VS Code 등 여러 AI 도구에서 같은 MCP 서버를 재사용할 수 있습니다.`]}),`
+`,(0,t.jsx)(n.h3,{id:`자주-사용하는-mcp-서버`,"data-toc-id":`자주-사용하는-mcp-서버`,"data-toc-slug":`자주-사용하는-mcp-서버`,"data-toc-depth":`1`,children:`자주 사용하는 MCP 서버`}),`
+`,(0,t.jsxs)(n.table,{children:[(0,t.jsx)(n.thead,{children:(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.th,{children:`서버`}),(0,t.jsx)(n.th,{children:`용도`}),(0,t.jsx)(n.th,{children:`패키지`})]})}),(0,t.jsxs)(n.tbody,{children:[(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:(0,t.jsx)(n.strong,{children:`Filesystem`})}),(0,t.jsx)(n.td,{children:`프로젝트 파일 읽기/쓰기`}),(0,t.jsx)(n.td,{children:(0,t.jsx)(n.code,{children:`@modelcontextprotocol/server-filesystem`})})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:(0,t.jsx)(n.strong,{children:`Fetch`})}),(0,t.jsx)(n.td,{children:`HTTP 요청, 웹 페이지 읽기`}),(0,t.jsx)(n.td,{children:(0,t.jsx)(n.code,{children:`@modelcontextprotocol/server-fetch`})})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:(0,t.jsx)(n.strong,{children:`Memory`})}),(0,t.jsx)(n.td,{children:`세션 넘어 지식·규칙 저장`}),(0,t.jsx)(n.td,{children:(0,t.jsx)(n.code,{children:`@modelcontextprotocol/server-memory`})})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:(0,t.jsx)(n.strong,{children:`Playwright`})}),(0,t.jsx)(n.td,{children:`브라우저 자동화, UI 테스트`}),(0,t.jsx)(n.td,{children:(0,t.jsx)(n.code,{children:`@playwright/mcp`})})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:(0,t.jsx)(n.strong,{children:`Sequential Thinking`})}),(0,t.jsx)(n.td,{children:`단계별 추론·계획 수립`}),(0,t.jsx)(n.td,{children:(0,t.jsx)(n.code,{children:`@modelcontextprotocol/server-sequential-thinking`})})]})]})]}),`
+`,(0,t.jsxs)(n.blockquote,{children:[`
+`,(0,t.jsx)(n.p,{children:`설정 방법은 CLI별 섹션(Codex/Antigravity/Claude)에서 확인하세요. 도구마다 MCP, Skills, plugin, hook 관리 방식이 다를 수 있습니다.`}),`
+`]}),`
+`,(0,t.jsx)(r,{variant:`tip`,title:`헷갈리기 쉬운 경계`,children:(0,t.jsxs)(n.p,{children:[`반복 절차 문제를 MCP로 해결하려고 하면 과설계가 되고, 외부 도구 연결 문제를 Skill로 해결하려고 하면 능력이 부족해집니다. `,(0,t.jsx)(n.strong,{children:`절차는 Skill, capability는 MCP`}),`로 나눠서 보세요.`]})}),`
+`,(0,t.jsx)(n.h2,{id:`실습`,"data-toc-id":`실습`,"data-toc-slug":`실습`,"data-toc-depth":`0`,children:`실습`}),`
+`,(0,t.jsx)(n.p,{children:`현재 설치본에 등록된 MCP 서버를 확인합니다. 사용하는 도구의 명령 한 줄만 실행하면 됩니다.`}),`
+`,(0,t.jsx)(n.pre,{children:(0,t.jsx)(n.code,{className:`language-bash`,children:`codex mcp list
+claude mcp list
+agy mcp list
+`})}),`
+`,(0,t.jsxs)(n.table,{children:[(0,t.jsx)(n.thead,{children:(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.th,{children:`확인 항목`}),(0,t.jsx)(n.th,{children:`통과 기준`}),(0,t.jsx)(n.th,{children:`통과하지 못하면`})]})}),(0,t.jsxs)(n.tbody,{children:[(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`명령 실행`}),(0,t.jsx)(n.td,{children:`오류 없이 목록 또는 빈 결과가 출력된다`}),(0,t.jsx)(n.td,{children:`등록된 서버가 없으면 빈 결과가 정상입니다`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`구분 설명`}),(0,t.jsx)(n.td,{children:`결과에 나온 항목이 Skills가 아니라 MCP 서버라고 말할 수 있다`}),(0,t.jsxs)(n.td,{children:[(0,t.jsx)(n.code,{children:`Skills vs MCP vs 프로젝트 설명`}),` 표를 다시 읽습니다`]})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`다음 판단`}),(0,t.jsx)(n.td,{children:`지금 MCP를 추가할 필요가 있는지 한 문장으로 답할 수 있다`}),(0,t.jsx)(n.td,{children:`필요한 외부 데이터가 없다면 추가하지 않는 편이 낫습니다`})]})]})]}),`
+`,(0,t.jsx)(n.h2,{id:`완료-기준`,"data-toc-id":`완료-기준`,"data-toc-slug":`완료-기준`,"data-toc-depth":`0`,children:`완료 기준`}),`
+`,(0,t.jsxs)(s,{children:[(0,t.jsx)(o,{number:1,title:`역할 구분`,children:(0,t.jsx)(n.p,{children:`Skills는 절차, MCP는 외부 capability, 프로젝트 설명은 기본 맥락이라고 구분할 수 있습니다.`})}),(0,t.jsx)(o,{number:2,title:`4단계 루틴`,children:(0,t.jsx)(n.p,{children:`Check → Plan → Act → Verify 순서로 작업 요청을 나눌 수 있습니다.`})}),(0,t.jsx)(o,{number:3,title:`도구별 차이`,children:(0,t.jsx)(n.p,{children:`Codex, Antigravity, Claude가 MCP/Skills/plugin을 서로 다른 명령으로 관리할 수 있음을 설명할 수 있습니다.`})})]}),`
+`,(0,t.jsx)(c,{title:`핵심 요약`,children:(0,t.jsxs)(n.ul,{children:[`
+`,(0,t.jsx)(n.li,{children:`Skills는 작업 절차, MCP는 capability, 프로젝트 설명은 기본 맥락입니다`}),`
+`,(0,t.jsxs)(n.li,{children:[(0,t.jsx)(n.strong,{children:`Check → Plan → Act → Verify`}),` 4단계는 여러 AI CLI에서 반복 가능한 기본 작업 흐름입니다`]}),`
+`,(0,t.jsx)(n.li,{children:`MCP는 개방형 표준으로 여러 AI 도구에서 재사용 가능합니다`}),`
+`,(0,t.jsx)(n.li,{children:`각 CLI별 MCP 설정 방법은 해당 CLI 섹션을 참조하세요`}),`
+`]})})]})}function r(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(n,{...e})}):n(e)}function i(e,t){throw Error(`Expected `+(t?`component`:`object`)+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{r as default};

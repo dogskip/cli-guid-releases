@@ -1,0 +1,36 @@
+import{n as e}from"./vendor-react-BH_RQ4nt.js";var t=e();function n(e){let n={a:`a`,code:`code`,h1:`h1`,h2:`h2`,li:`li`,p:`p`,pre:`pre`,strong:`strong`,table:`table`,tbody:`tbody`,td:`td`,th:`th`,thead:`thead`,tr:`tr`,ul:`ul`,...e.components},{Callout:r,LearningObjective:a,Step:o,StepList:s,SummaryBox:c}=n;return r||i(`Callout`,!0),a||i(`LearningObjective`,!0),o||i(`Step`,!0),s||i(`StepList`,!0),c||i(`SummaryBox`,!0),(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h1,{children:`CLI 공통 시작하기`}),`
+`,(0,t.jsx)(n.p,{children:`공통교육을 마쳤다면 이제 실제 AI CLI 도구를 시작할 차례입니다. 이 챕터는 이 커리큘럼의 세 도구(Codex, Antigravity, Claude)에 반복해서 적용되는 시작 방법을 다룹니다.`}),`
+`,(0,t.jsx)(a,{items:[`어떤 CLI 도구를 선택할지 판단할 수 있다`,`Codex, Antigravity, Claude에서 반복되는 실행 패턴을 이해한다`,`선택한 도구별 실습 섹션으로 자연스럽게 넘어갈 수 있다`]}),`
+`,(0,t.jsx)(n.h2,{id:`공통-실행-패턴`,"data-toc-id":`공통-실행-패턴`,"data-toc-slug":`공통-실행-패턴`,"data-toc-depth":`0`,children:`공통 실행 패턴`}),`
+`,(0,t.jsxs)(n.p,{children:[`Codex, Antigravity, Claude는 대체로 `,(0,t.jsx)(n.strong,{children:`설치 → 버전 확인 → 인증 → 프로젝트 루트로 이동 → 실행 → 작은 읽기 요청`}),` 순서로 시작합니다.`]}),`
+`,(0,t.jsx)(n.h2,{id:`도구-선택`,"data-toc-id":`도구-선택`,"data-toc-slug":`도구-선택`,"data-toc-depth":`0`,children:`도구 선택`}),`
+`,(0,t.jsxs)(n.table,{children:[(0,t.jsx)(n.thead,{children:(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.th,{children:`도구`}),(0,t.jsx)(n.th,{children:`명령어`}),(0,t.jsx)(n.th,{children:`패키지`}),(0,t.jsx)(n.th,{children:`섹션`})]})}),(0,t.jsxs)(n.tbody,{children:[(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`Codex`}),(0,t.jsx)(n.td,{children:(0,t.jsx)(n.code,{children:`codex`})}),(0,t.jsx)(n.td,{children:`OpenAI Codex CLI`}),(0,t.jsx)(n.td,{children:(0,t.jsx)(n.a,{href:`?chapter=codex-quick-start`,children:`Codex 실습`})})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`Antigravity`}),(0,t.jsx)(n.td,{children:(0,t.jsx)(n.code,{children:`agy`})}),(0,t.jsx)(n.td,{children:`Google Antigravity CLI`}),(0,t.jsx)(n.td,{children:(0,t.jsx)(n.a,{href:`?chapter=antigravity-quick-start`,children:`Antigravity 실습`})})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`Claude`}),(0,t.jsx)(n.td,{children:(0,t.jsx)(n.code,{children:`claude`})}),(0,t.jsx)(n.td,{children:`Anthropic Claude Code`}),(0,t.jsx)(n.td,{children:(0,t.jsx)(n.a,{href:`?chapter=claude-quick-start`,children:`Claude 실습`})})]})]})]}),`
+`,(0,t.jsx)(n.h2,{id:`공통-기본-수칙-어떤-도구든-동일`,"data-toc-id":`공통-기본-수칙-어떤-도구든-동일`,"data-toc-slug":`공통-기본-수칙-어떤-도구든-동일`,"data-toc-depth":`0`,children:`공통 기본 수칙 (어떤 도구든 동일)`}),`
+`,(0,t.jsxs)(n.table,{children:[(0,t.jsx)(n.thead,{children:(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.th,{children:`수칙`}),(0,t.jsx)(n.th,{children:`이유`})]})}),(0,t.jsxs)(n.tbody,{children:[(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`프로젝트 루트에서 실행`}),(0,t.jsx)(n.td,{children:`파일 경로와 컨텍스트 정확도 향상`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`첫 요청은 읽기 전용`}),(0,t.jsx)(n.td,{children:`파일 변경 없이 도구 동작 확인`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`결과 기준 먼저 정하기`}),(0,t.jsx)(n.td,{children:`기대 결과가 명확해야 AI가 더 정확한 답변`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`작게 나눠서 요청`}),(0,t.jsx)(n.td,{children:`한 번에 큰 변경보다 검증이 쉬움`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`결과는 항상 직접 확인`}),(0,t.jsx)(n.td,{children:`AI는 틀릴 수 있음`})]})]})]}),`
+`,(0,t.jsx)(n.h2,{id:`실습`,"data-toc-id":`실습`,"data-toc-slug":`실습`,"data-toc-depth":`0`,children:`실습`}),`
+`,(0,t.jsx)(n.p,{children:`선택한 도구 한 줄만 실행해 현재 설치본을 확인합니다.`}),`
+`,(0,t.jsx)(n.pre,{children:(0,t.jsx)(n.code,{className:`language-bash`,children:`codex --version
+claude --version
+agy --version
+`})}),`
+`,(0,t.jsx)(n.p,{children:`이어서 프로젝트 루트에서 기준 상태를 확인합니다.`}),`
+`,(0,t.jsx)(n.pre,{children:(0,t.jsx)(n.code,{className:`language-bash`,children:`pwd
+git status --short
+`})}),`
+`,(0,t.jsxs)(n.table,{children:[(0,t.jsx)(n.thead,{children:(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.th,{children:`단계`}),(0,t.jsx)(n.th,{children:`할 일`}),(0,t.jsx)(n.th,{children:`예상 결과`})]})}),(0,t.jsxs)(n.tbody,{children:[(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`1`}),(0,t.jsxs)(n.td,{children:[`선택한 도구의 `,(0,t.jsx)(n.code,{children:`--version`}),` 실행`]}),(0,t.jsx)(n.td,{children:`버전 문자열 출력`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`2`}),(0,t.jsxs)(n.td,{children:[`선택한 도구의 `,(0,t.jsx)(n.code,{children:`--help`}),` 실행`]}),(0,t.jsx)(n.td,{children:`현재 설치본의 옵션 확인`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`3`}),(0,t.jsxs)(n.td,{children:[`프로젝트 루트에서 `,(0,t.jsx)(n.code,{children:`git status --short`}),` 실행`]}),(0,t.jsx)(n.td,{children:`현재 변경 상태 확인`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`4`}),(0,t.jsx)(n.td,{children:`읽기 전용 프로젝트 요약 요청`}),(0,t.jsx)(n.td,{children:`폴더, 실행 명령, 테스트 명령 요약`})]})]})]}),`
+`,(0,t.jsx)(n.p,{children:`실패하면 "설치 문제", "PATH 문제", "프로젝트 위치 문제", "인증 문제" 중 어디에 가까운지 먼저 분류합니다. 바로 파일 수정을 요청하지 않습니다.`}),`
+`,(0,t.jsx)(n.h2,{id:`다음-단계`,"data-toc-id":`다음-단계`,"data-toc-slug":`다음-단계`,"data-toc-depth":`0`,children:`다음 단계`}),`
+`,(0,t.jsxs)(n.p,{children:[`상단 선택기에서 `,(0,t.jsx)(n.strong,{children:`Codex`}),`, `,(0,t.jsx)(n.strong,{children:`Antigravity`}),`, `,(0,t.jsx)(n.strong,{children:`Claude`}),`를 선택하거나, 아래 링크로 원하는 도구별 실습으로 바로 이동하세요:`]}),`
+`,(0,t.jsxs)(n.ul,{children:[`
+`,(0,t.jsxs)(n.li,{children:[(0,t.jsx)(n.a,{href:`?chapter=codex-quick-start`,children:`Codex 실습`}),` — OpenAI Codex CLI 설치부터 세션 운영까지`]}),`
+`,(0,t.jsxs)(n.li,{children:[(0,t.jsx)(n.a,{href:`?chapter=antigravity-quick-start`,children:`Antigravity 실습`}),` — Antigravity CLI 실행 방식과 plugin 관리까지`]}),`
+`,(0,t.jsxs)(n.li,{children:[(0,t.jsx)(n.a,{href:`?chapter=claude-quick-start`,children:`Claude 실습`}),` — Claude Code 설치부터 memory와 권한 설정까지`]}),`
+`]}),`
+`,(0,t.jsx)(r,{variant:`info`,title:`상단 선택기`,children:(0,t.jsxs)(n.p,{children:[`학습 중에도 상단 선택기로 언제든 Codex ↔ Antigravity ↔ Claude 콘텐츠를 전환할 수 있습니다. 공통 챕터(`,(0,t.jsx)(n.code,{children:`00-introduction`}),`)와 선택된 CLI 챕터가 함께 표시됩니다.`]})}),`
+`,(0,t.jsx)(n.h2,{id:`완료-기준`,"data-toc-id":`완료-기준`,"data-toc-slug":`완료-기준`,"data-toc-depth":`0`,children:`완료 기준`}),`
+`,(0,t.jsxs)(s,{children:[(0,t.jsx)(o,{number:1,title:`도구 선택`,children:(0,t.jsx)(n.p,{children:`현재 사용할 AI CLI를 하나 선택하고 해당 quick start 챕터로 이동할 수 있습니다.`})}),(0,t.jsx)(o,{number:2,title:`기본 명령 확인`,children:(0,t.jsxs)(n.p,{children:[`선택한 도구의 `,(0,t.jsx)(n.code,{children:`--version`}),`과 `,(0,t.jsx)(n.code,{children:`--help`}),`를 실행해 현재 설치본을 확인할 수 있습니다.`]})}),(0,t.jsx)(o,{number:3,title:`읽기 전용 시작`,children:(0,t.jsx)(n.p,{children:`프로젝트 루트에서 파일 수정 없는 첫 요청을 보낼 수 있습니다.`})})]}),`
+`,(0,t.jsx)(c,{title:`핵심 요약`,children:(0,t.jsxs)(n.ul,{children:[`
+`,(0,t.jsx)(n.li,{children:`이 커리큘럼의 세 도구는 설치 → 인증 → 프로젝트 루트 → 실행이라는 공통 흐름을 공유합니다`}),`
+`,(0,t.jsx)(n.li,{children:`첫 작업은 읽기 전용 프로젝트 파악으로 시작하고 결과 기준을 먼저 정합니다`}),`
+`,(0,t.jsx)(n.li,{children:`Codex, Antigravity, Claude 중 현재 사용하는 도구를 상단 선택기에서 고르면 됩니다`}),`
+`]})})]})}function r(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(n,{...e})}):n(e)}function i(e,t){throw Error(`Expected `+(t?`component`:`object`)+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{r as default};

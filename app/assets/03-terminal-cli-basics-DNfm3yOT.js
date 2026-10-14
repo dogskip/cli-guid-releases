@@ -1,0 +1,34 @@
+import{n as e}from"./vendor-react-BH_RQ4nt.js";var t=e();function n(e){let n={code:`code`,h1:`h1`,h2:`h2`,li:`li`,p:`p`,pre:`pre`,table:`table`,tbody:`tbody`,td:`td`,th:`th`,thead:`thead`,tr:`tr`,ul:`ul`,...e.components},{Callout:r,LearningObjective:a,Step:o,StepList:s,SummaryBox:c}=n;return r||i(`Callout`,!0),a||i(`LearningObjective`,!0),o||i(`Step`,!0),s||i(`StepList`,!0),c||i(`SummaryBox`,!0),(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h1,{children:`터미널과 CLI 기초`}),`
+`,(0,t.jsx)(n.p,{children:`터미널은 명령을 입력하고 결과를 확인하는 화면입니다. CLI는 터미널에서 실행하는 프로그램입니다.`}),`
+`,(0,t.jsx)(a,{items:[`터미널, 셸, CLI를 구분한다`,`명령어의 기본 구조를 이해한다`,`AI CLI를 실행할 때 현재 위치가 중요하다는 점을 이해한다`]}),`
+`,(0,t.jsx)(n.h2,{id:`기본-구조`,"data-toc-id":`기본-구조`,"data-toc-slug":`기본-구조`,"data-toc-depth":`0`,children:`기본 구조`}),`
+`,(0,t.jsx)(n.h2,{id:`터미널`,"data-toc-id":`터미널`,"data-toc-slug":`터미널`,"data-toc-depth":`0`,children:`터미널`}),`
+`,(0,t.jsx)(n.p,{children:`터미널은 컴퓨터에게 글로 명령을 입력하는 화면입니다. 앱을 클릭해서 실행하는 대신, 명령어를 입력해 프로그램을 실행합니다.`}),`
+`,(0,t.jsx)(n.p,{children:`예를 들어 아래 명령은 현재 설치된 Node.js 버전을 출력합니다.`}),`
+`,(0,t.jsx)(n.pre,{children:(0,t.jsx)(n.code,{className:`language-bash`,children:`node --version
+`})}),`
+`,(0,t.jsx)(n.h2,{id:`셸`,"data-toc-id":`셸`,"data-toc-slug":`셸`,"data-toc-depth":`0`,children:`셸`}),`
+`,(0,t.jsxs)(n.p,{children:[`셸은 사용자가 입력한 명령을 해석하는 프로그램입니다. macOS와 Linux에서는 `,(0,t.jsx)(n.code,{children:`zsh`}),`, `,(0,t.jsx)(n.code,{children:`bash`}),`를 많이 사용하고, Windows에서는 PowerShell을 많이 사용합니다.`]}),`
+`,(0,t.jsx)(n.p,{children:`초보자는 셸 종류를 깊게 외울 필요는 없습니다. 다만 같은 명령이라도 운영체제와 셸에 따라 조금 다르게 동작할 수 있다는 점은 알아야 합니다.`}),`
+`,(0,t.jsx)(n.h2,{id:`cli`,"data-toc-id":`cli`,"data-toc-slug":`cli`,"data-toc-depth":`0`,children:`CLI`}),`
+`,(0,t.jsx)(n.p,{children:`CLI는 Command Line Interface의 줄임말입니다. 터미널에서 명령어로 사용하는 프로그램을 뜻합니다.`}),`
+`,(0,t.jsxs)(n.p,{children:[`AI CLI도 CLI입니다. `,(0,t.jsx)(n.code,{children:`codex`}),`, `,(0,t.jsx)(n.code,{children:`agy`}),`, `,(0,t.jsx)(n.code,{children:`claude`}),` 같은 명령을 터미널에서 실행하고, 그 안에서 AI와 대화하거나 작업을 맡깁니다.`]}),`
+`,(0,t.jsx)(n.h2,{id:`명령어-구조`,"data-toc-id":`명령어-구조`,"data-toc-slug":`명령어-구조`,"data-toc-depth":`0`,children:`명령어 구조`}),`
+`,(0,t.jsxs)(n.table,{children:[(0,t.jsx)(n.thead,{children:(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.th,{children:`부분`}),(0,t.jsx)(n.th,{children:`예시`}),(0,t.jsx)(n.th,{children:`의미`})]})}),(0,t.jsxs)(n.tbody,{children:[(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`명령어`}),(0,t.jsxs)(n.td,{children:[(0,t.jsx)(n.code,{children:`codex`}),`, `,(0,t.jsx)(n.code,{children:`agy`}),`, `,(0,t.jsx)(n.code,{children:`claude`})]}),(0,t.jsx)(n.td,{children:`실행할 프로그램`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`옵션`}),(0,t.jsx)(n.td,{children:(0,t.jsx)(n.code,{children:`--version`})}),(0,t.jsx)(n.td,{children:`프로그램에 주는 추가 지시`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`대상`}),(0,t.jsx)(n.td,{children:(0,t.jsx)(n.code,{children:`README.md`})}),(0,t.jsx)(n.td,{children:`명령이 다룰 파일이나 값`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`출력`}),(0,t.jsx)(n.td,{children:`버전 문자열`}),(0,t.jsx)(n.td,{children:`실행 결과`})]})]})]}),`
+`,(0,t.jsx)(n.h2,{id:`꼭-알아야-할-최소-명령`,"data-toc-id":`꼭-알아야-할-최소-명령`,"data-toc-slug":`꼭-알아야-할-최소-명령`,"data-toc-depth":`0`,children:`꼭 알아야 할 최소 명령`}),`
+`,(0,t.jsxs)(n.table,{children:[(0,t.jsx)(n.thead,{children:(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.th,{children:`명령`}),(0,t.jsx)(n.th,{children:`뜻`})]})}),(0,t.jsxs)(n.tbody,{children:[(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:(0,t.jsx)(n.code,{children:`pwd`})}),(0,t.jsx)(n.td,{children:`현재 폴더 위치 보기`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:(0,t.jsx)(n.code,{children:`ls`})}),(0,t.jsx)(n.td,{children:`현재 폴더 안의 파일 보기`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:(0,t.jsx)(n.code,{children:`cd 폴더명`})}),(0,t.jsx)(n.td,{children:`다른 폴더로 이동`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:(0,t.jsx)(n.code,{children:`명령 --version`})}),(0,t.jsx)(n.td,{children:`버전 확인`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:(0,t.jsx)(n.code,{children:`명령 --help`})}),(0,t.jsx)(n.td,{children:`도움말 확인`})]})]})]}),`
+`,(0,t.jsx)(r,{variant:`warning`,title:`위치가 중요합니다`,children:(0,t.jsx)(n.p,{children:`AI CLI는 현재 터미널이 열려 있는 폴더를 기준으로 프로젝트를 이해합니다. 엉뚱한 폴더에서 실행하면 필요한 파일을 못 보거나 잘못된 파일을 볼 수 있습니다.`})}),`
+`,(0,t.jsx)(n.h2,{id:`실습`,"data-toc-id":`실습`,"data-toc-slug":`실습`,"data-toc-depth":`0`,children:`실습`}),`
+`,(0,t.jsx)(n.p,{children:`터미널을 열고 현재 위치와 설치 상태를 확인합니다.`}),`
+`,(0,t.jsx)(n.pre,{children:(0,t.jsx)(n.code,{className:`language-bash`,children:`pwd
+ls
+node --version
+`})}),`
+`,(0,t.jsxs)(n.table,{children:[(0,t.jsx)(n.thead,{children:(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.th,{children:`확인 항목`}),(0,t.jsx)(n.th,{children:`통과 기준`}),(0,t.jsx)(n.th,{children:`통과하지 못하면`})]})}),(0,t.jsxs)(n.tbody,{children:[(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:(0,t.jsx)(n.code,{children:`pwd`})}),(0,t.jsx)(n.td,{children:`작업하려는 폴더 경로가 출력된다`}),(0,t.jsxs)(n.td,{children:[(0,t.jsx)(n.code,{children:`cd <프로젝트 경로>`}),`로 이동한 뒤 다시 실행합니다`]})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:(0,t.jsx)(n.code,{children:`ls`})}),(0,t.jsx)(n.td,{children:`그 폴더의 파일 목록이 보인다`}),(0,t.jsxs)(n.td,{children:[`위치가 맞는지 `,(0,t.jsx)(n.code,{children:`pwd`}),` 결과와 함께 확인합니다`]})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:(0,t.jsx)(n.code,{children:`node --version`})}),(0,t.jsx)(n.td,{children:`버전 문자열이 출력된다`}),(0,t.jsx)(n.td,{children:`설치되지 않았다면 이 단계는 건너뛰고, 명령어와 옵션의 구조만 설명해 봅니다`})]}),(0,t.jsxs)(n.tr,{children:[(0,t.jsx)(n.td,{children:`구조 설명`}),(0,t.jsx)(n.td,{children:`세 명령에서 명령어와 옵션을 각각 지목할 수 있다`}),(0,t.jsxs)(n.td,{children:[(0,t.jsx)(n.code,{children:`명령어 구조`}),` 표를 다시 읽습니다`]})]})]})]}),`
+`,(0,t.jsx)(n.h2,{id:`완료-기준`,"data-toc-id":`완료-기준`,"data-toc-slug":`완료-기준`,"data-toc-depth":`0`,children:`완료 기준`}),`
+`,(0,t.jsxs)(s,{children:[(0,t.jsx)(o,{number:1,title:`구분하기`,children:(0,t.jsx)(n.p,{children:`터미널은 입력 화면, 셸은 명령 해석기, CLI는 터미널에서 실행하는 프로그램이라고 구분할 수 있습니다.`})}),(0,t.jsx)(o,{number:2,title:`명령 읽기`,children:(0,t.jsxs)(n.p,{children:[(0,t.jsx)(n.code,{children:`codex --version`}),`, `,(0,t.jsx)(n.code,{children:`agy --version`}),`, `,(0,t.jsx)(n.code,{children:`claude --version`}),`에서 명령어와 옵션의 역할을 설명할 수 있습니다.`]})}),(0,t.jsx)(o,{number:3,title:`현재 위치 확인`,children:(0,t.jsxs)(n.p,{children:[`AI CLI를 실행하기 전에 `,(0,t.jsx)(n.code,{children:`pwd`}),`로 현재 위치를 확인해야 하는 이유를 설명할 수 있습니다.`]})})]}),`
+`,(0,t.jsx)(c,{title:`핵심 요약`,children:(0,t.jsxs)(n.ul,{children:[`
+`,(0,t.jsx)(n.li,{children:`터미널은 명령을 입력하는 화면입니다`}),`
+`,(0,t.jsx)(n.li,{children:`CLI는 터미널에서 실행하는 프로그램입니다`}),`
+`,(0,t.jsx)(n.li,{children:`AI CLI는 현재 폴더를 기준으로 프로젝트를 이해합니다`}),`
+`]})})]})}function r(e={}){let{wrapper:r}=e.components||{};return r?(0,t.jsx)(r,{...e,children:(0,t.jsx)(n,{...e})}):n(e)}function i(e,t){throw Error(`Expected `+(t?`component`:`object`)+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{r as default};
